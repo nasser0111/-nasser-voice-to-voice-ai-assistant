@@ -1,0 +1,16 @@
+name: nasser-voice-assistant
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - portaudio
+  - pip:
+      - cohere>=5.20,<6.0
+      - SpeechRecognition>=3.14,<4.0
+      - PyAudio>=0.2.14,<1.0
+      - gTTS>=2.5,<3.0
+      - playsound3>=3.2,<4.0
+      - python-dotenv>=1.1,<2.0
+
