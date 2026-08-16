@@ -1,0 +1,13 @@
+Voice-to-Voice AI Assistant — Example Session
+Prepared by Nasser Mamdouh Alshareef
+
+Command:
+python main.py --text "Explain machine learning in one sentence" --no-play
+
+Expected flow:
+1. The text is sent to Cohere Chat API v2.
+2. Cohere returns a concise response.
+3. gTTS saves the response in output/assistant_response.mp3.
+
+The exact generated answer changes between API requests.
+
